@@ -17,3 +17,4 @@ git config --global alias.p push
 git config --global alias.pl pull
 git config --global alias.b branch
 git config --global alias.n checkout -b
+git config --global --type bool push.autoSetupRemote true
