@@ -8,4 +8,12 @@ if [ -f ~/.profile ]; then
 fi
 
 # Git
+git config --global core.editor "vim"
 git config --global alias.co checkout
+git config --global alias.s status
+git config --global alias.a add .
+git config --global alias.c commit -m
+git config --global alias.p push
+git config --global alias.pl pull
+git config --global alias.b branch
+git config --global alias.n checkout -b
