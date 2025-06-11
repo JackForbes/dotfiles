@@ -18,8 +18,7 @@ Symlinked into your home directory `~`:
 1. Install the **Ruby LSP** extension in Windsurf
 2. Uninstall _any Rubocop_ extensions from Windsurf
 3. Install the **ESLint**, **Vue**, and **Prettier** extensions in Windsurf
-4. Enable "Format on save" in your Windsurf settings
-5. Exit and restart Windsurf after installing the Windsurf settings below
+4. Exit and restart Windsurf after installing the Windsurf settings below
 
 ### Automatic - both bash and Windsurf settings - all new codespaces
 
