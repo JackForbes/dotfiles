@@ -17,26 +17,8 @@ Symlinked into your home directory `~`:
 
 1. Install the **Ruby LSP** extension in Windsurf
 2. Uninstall _any Rubocop_ extensions from Windsurf
-3. Exit and restart Windsurf after installing the Windsurf settings below
-
-### Manual - only Windsurf settings - one codespace
-
-_Installs only `settings.json`, no bash settings_
-
-```bash
-mkdir -p /home/codespace/.windsurf-server/data/Machine
-cd /home/codespace/.windsurf-server/data/Machine
-curl -O https://raw.githubusercontent.com/ms-ati/dotfiles/refs/heads/main/windsurf/Machine/settings.json
-```
-
-### Manual - both bash and Windsurf settings - one codespace
-
-```bash
-cd /workspaces
-git clone https://github.com/ms-ati/dotfiles.git
-cd dotfiles
-bash install.sh
-```
+3. Install the **ESLint**, **Vue**, and **Prettier** extensions in Windsurf
+4. Exit and restart Windsurf after installing the Windsurf settings below
 
 ### Automatic - both bash and Windsurf settings - all new codespaces
 
@@ -50,5 +32,3 @@ bash install.sh
   gem (e.g. `/workspaces/monorama/lib/gems/panorama_ai`) rather than to the monorama root
 * Ask for help if you may have manually configured Ruby LSP settings (at the
   User, Remote, or Workspace levels) which may be conflicting with these settings.
-
-
