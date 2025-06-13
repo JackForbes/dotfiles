@@ -49,4 +49,9 @@
         "vue"
     ],
     "eslint.useESLintClass": true,
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
 }
