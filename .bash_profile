@@ -11,7 +11,7 @@ fi
 git config --global core.editor "vim"
 git config --global alias.co checkout
 git config --global alias.s status
-git config --global alias.a 'add .'
+git config --global alias.a 'add -A'
 git config --global alias.c 'commit -m'
 git config --global alias.p push
 git config --global alias.pl pull
