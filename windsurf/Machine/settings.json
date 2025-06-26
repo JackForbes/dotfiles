@@ -22,12 +22,16 @@
     "[vue]": {
         "editor.rulers": [
             120
-        ]
+        ],
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[ruby]": {
         "editor.rulers": [
             80
         ]
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "files.associations": {
         "*.tsv": "csv"
