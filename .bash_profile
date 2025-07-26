@@ -20,3 +20,5 @@ git config --global alias.b branch
 git config --global alias.n 'checkout -b'
 git config --global --type bool push.autoSetupRemote true
 git config --global alias.r 'rebase origin/develop -i'
+git config --global alias.d 'git branch | grep -v "production" | grep -v "main" | xargs git branch -D'
+git config --global alias.m 'git merge main'
